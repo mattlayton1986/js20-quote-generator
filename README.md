@@ -4,3 +4,20 @@ This project was created as part of the Udemy course [JavaScript Web Projects: 2
 
 ## Running the app locally
 
+1. Make sure to have a server that can serve static HTML projects. I use the [LiveServer extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for VS Code.
+
+2. Clone the repository
+
+```bash
+git clone https://github.com/mattlayton1986/js20-quote-generator.git
+```
+
+3. Run the project via the aforementioned server. For VSCode Live Server, just click the "Go Live" option at the very bottom of the editor window and Live Server will launch the site for you.
+
+## Feedback
+
+Feel free to submit feedback about this project by [submitting an Issue](https://github.com/mattlayton1986/js20-quote-generator/issues). 
+
+## Contributions
+
+Because this is a Udemy-based personal project (and a fairly simple one at that), I am not accepting Pull Requests or submissions for new features at this time.
