@@ -16,7 +16,6 @@ async function fetchQuotesFromAPI() {
     const response = await fetch(apiUrl);
     apiQuotes = await response.json();
     newQuote();
-    throw new Error("oops");
   } catch(error) {
     // Catch error
     console.error(error);
@@ -78,4 +77,4 @@ newQuoteBtn.addEventListener('click', newQuote);
 twitterBtn.addEventListener('click', tweetQuote);
 
 // On Load
-fetchQuotesFromAPI();
+window.onload = fetchQuotesFromAPI();
